@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Builder</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="builder">
+        <!-- Form Builder -->
+        <h3>Form Builder</h3>
+
+        <select id="fieldType">
+          <option value="textArea">Text Area</option>
+          <option value="textInput">Text Input</option>
+          <option value="phone">Phone</option>
+          <option value="email">Email</option>
+          <option value="number">Number</option>
+          <option value="date">Date</option>
+          <option value="checkBox">Check Box</option>
+          <option value="radio">Radio Button</option>
+        </select>
+
+        <h3>Field Label</h3>
+        <input type="text" id="fieldLabel" placeholder="Enter Field Name" />
+
+        <button id="button" onclick="addField()">Add Field</button>
+      </div>
+
+      <!-- Form Preview -->
+      <div id="preview">
+        <h3>Form Preview</h3>
+
+        <form id="formPreview"></form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
