@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo</title>
+  </head>
+  <body>
+    <div class="board">
+      <div class="column">
+        <h2>To Do</h2>
+        <div class="add-task-form">
+          <input type="text" id="taskInput" placeholder="Enter new task..." />
+          <button id="addTaskBtn">Add Task</button>
+        </div>
+        <div class="task-list" id="todo">
+          <div class="task" draggable="true">Todo Task 1</div>
+          <div class="task" draggable="true">Todo Task 2</div>
+        </div>
+      </div>
+
+      <div class="column">
+        <h2>In Progress</h2>
+        <div class="task-list" id="inProgress">
+          <div class="task" draggable="true">Working on feature</div>
+        </div>
+      </div>
+
+      <div class="column">
+        <h2>Under Review</h2>
+        <div class="task-list" id="review">
+          <div class="task" draggable="true">Need to Check</div>
+        </div>
+      </div>
+
+      <div class="column">
+        <h2>Finished</h2>
+        <div class="task-list" id="done">
+          <div class="task" draggable="true">Task 1 Completed</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

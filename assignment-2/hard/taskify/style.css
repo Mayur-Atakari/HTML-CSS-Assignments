@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  padding: 20px;
+}
+
+.board {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.column {
+  background: #fff;
+  padding: 10px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.column h2 {
+  text-align: center;
+}
+
+.task-list {
+  min-height: 200px;
+  padding: 10px;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+.task {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: grab;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.task:active {
+  cursor: grab;
+}
+
+.task-list:drag-over {
+  background: #dcecff;
+}
