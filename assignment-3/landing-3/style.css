@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  margin-top: 14px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.nav-right button {
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.hero {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left {
+  width: 150px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.left p {
+  font-size: 13px;
+}
+
+.left button {
+  color: white;
+  width: 80px;
+  margin-top: 18px;
+  border: none;
+  padding: 10px;
+  background-color: rgb(71, 34, 34);
+  border-radius: 18px;
+}
+
+.right img {
+  height: 200px;
+  width: 250px;
+}
+
+.right-content {
+  padding: 10px;
+  position: relative;
+  background-color: whitesmoke;
+  border-radius: 11px;
+  overflow: visible;
+}
+
+.right-content button {
+  padding: 6px 10px;
+  border-radius: 12px;
+  border: none;
+  margin: 8px 4px;
+}
+#three-d {
+  border-radius: 100px;
+  background-color: brown;
+  color: white;
+}
+.image-sec {
+  overflow: visible;
+  display: flex;
+  margin: 15px;
+  justify-content: space-around;
+  width: 450px;
+  height: 190px;
+}
+
+.image-sec h2 {
+  font-size: 30px;
+}
+/* 
+.image-sec left {
+  display: flex;
+  flex-direction: column;
+} */
+
+.image-left {
+  padding: 8px;
+}
+
+.image-left p {
+  margin-top: 12px;
+}
+
+.image-sec img {
+  width: 150px;
+  height: 160px;
+  border-radius: 7px;
+}
+
+.main-img {
+  border-radius: 20px;
+  position: absolute;
+  left: 7%;
+  bottom: -45%;
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.25);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 170px;
+}
+
+.footer-left {
+  width: 30%;
+  height: 150px;
+  border-top-right-radius: 18px;
+  background-color: darksalmon;
+  padding: 15px;
+  text-align: center;
+}
+
+.footer-left h2 {
+  margin-top: 28px;
+}
+
+.footer-left p {
+  margin-top: 12px;
+}
+
+.footer-center {
+  margin-top: 7px;
+  width: 40%;
+  height: 150px;
+  text-align: center;
+}
+
+.footer-center img {
+  width: 20%;
+  height: 50%;
+  padding: 5px;
+}
+
+.footer-right {
+  width: 25%;
+}
+
+.footer-right p {
+  text-decoration: underline;
+}
